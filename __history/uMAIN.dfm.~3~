@@ -187,7 +187,7 @@ object Form1: TForm1
   end
   object SaveDialog: TSaveDialog
     DefaultExt = '.bmp'
-    Filter = 'Bitmap files|*.bmp|PNG files|*.png|All files|*.*'
+    Filter = 'Bitmap files|*.bmp|All files|*.*'
     Left = 44
     Top = 565
   end

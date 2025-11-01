@@ -184,6 +184,12 @@
             <BuildOrder>1</BuildOrder>
             <PCH>true</PCH>
         </PCHCompile>
+        <CppCompile Include="uLOGIN.cpp">
+            <Form>Form2</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>uLOGIN.h</DependentOn>
+            <BuildOrder>3</BuildOrder>
+        </CppCompile>
         <CppCompile Include="uMAIN.cpp">
             <Form>Form1</Form>
             <FormType>dfm</FormType>
@@ -191,6 +197,7 @@
             <BuildOrder>2</BuildOrder>
         </CppCompile>
         <FormResources Include="uMAIN.dfm"/>
+        <FormResources Include="uLOGIN.dfm"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
