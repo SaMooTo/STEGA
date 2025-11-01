@@ -1,0 +1,179 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  AutoSize = True
+  Caption = #1055#1088#1086#1075#1088#1072#1084#1084#1072' '#1089#1086#1082#1088#1099#1090#1080#1103' '#1090#1077#1082#1089#1090#1072' '#1074' '#1094#1080#1092#1088#1086#1074#1086#1084' '#1080#1079#1086#1073#1088#1072#1078#1077#1085#1080#1080
+  ClientHeight = 600
+  ClientWidth = 1000
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 1000
+    Height = 600
+    TabOrder = 0
+    DesignSize = (
+      1000
+      600)
+    object Label3: TLabel
+      Left = 799
+      Top = 89
+      Width = 97
+      Height = 15
+      Caption = #1042#1085#1077#1076#1088#1077#1085#1080#1077' '#1090#1077#1082#1089#1090#1072
+    end
+    object Label4: TLabel
+      Left = 799
+      Top = 141
+      Width = 105
+      Height = 15
+      Caption = #1048#1079#1074#1083#1077#1095#1077#1085#1080#1077' '#1090#1077#1082#1089#1090#1072
+    end
+    object Label1: TLabel
+      Left = 799
+      Top = 8
+      Width = 135
+      Height = 15
+      Caption = #1056#1072#1073#1086#1090#1072' '#1089' '#1080#1079#1086#1073#1088#1072#1078#1077#1085#1080#1077#1084
+    end
+    object Label2: TLabel
+      Left = 799
+      Top = 251
+      Width = 66
+      Height = 15
+      Caption = #1055#1086#1083#1077' '#1074#1074#1086#1076#1072
+    end
+    object CODE: TButton
+      Left = 799
+      Top = 110
+      Width = 75
+      Height = 25
+      Caption = #1042#1085#1077#1076#1088#1080#1090#1100
+      TabOrder = 2
+      OnClick = CODEClick
+    end
+    object DECODE: TButton
+      Left = 799
+      Top = 162
+      Width = 75
+      Height = 25
+      Caption = #1048#1079#1074#1083#1077#1095#1100
+      TabOrder = 3
+      OnClick = DECODEClick
+    end
+    object MEMO: TMemo
+      Left = 799
+      Top = 272
+      Width = 194
+      Height = 289
+      TabOrder = 9
+    end
+    object LEN: TEdit
+      Left = 880
+      Top = 110
+      Width = 113
+      Height = 25
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 5
+      TextHint = #1050#1083#1102#1095
+    end
+    object OpenPath: TEdit
+      Left = 799
+      Top = 60
+      Width = 194
+      Height = 23
+      TabStop = False
+      TabOrder = 8
+    end
+    object SAVE: TButton
+      Left = 918
+      Top = 29
+      Width = 75
+      Height = 25
+      Caption = #1057#1086#1093#1088#1072#1085#1080#1090#1100
+      TabOrder = 1
+      OnClick = SAVEClick
+    end
+    object OPEN: TButton
+      Left = 799
+      Top = 29
+      Width = 75
+      Height = 25
+      Caption = #1047#1072#1075#1088#1091#1079#1080#1090#1100
+      TabOrder = 0
+      OnClick = OPENClick
+    end
+    object Panel2: TPanel
+      Left = 8
+      Top = 8
+      Width = 785
+      Height = 585
+      Anchors = []
+      BevelEdges = []
+      BevelOuter = bvNone
+      Color = clBtnShadow
+      ParentBackground = False
+      TabOrder = 10
+      object IMG: TImage
+        Left = 0
+        Top = 0
+        Width = 785
+        Height = 585
+        Center = True
+        Proportional = True
+        Stretch = True
+      end
+    end
+    object STEP: TEdit
+      Left = 880
+      Top = 162
+      Width = 113
+      Height = 23
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 6
+      TextHint = #1044#1083#1080#1085#1072' '#1090#1077#1082#1089#1090#1072
+    end
+    object ControlBar1: TControlBar
+      Left = 799
+      Top = 222
+      Width = 194
+      Height = 23
+      TabOrder = 11
+    end
+    object Edit1: TEdit
+      Left = 880
+      Top = 191
+      Width = 113
+      Height = 25
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 7
+      TextHint = #1050#1083#1102#1095
+    end
+    object EXITBUT: TButton
+      Left = 799
+      Top = 567
+      Width = 194
+      Height = 25
+      Caption = #1042#1099#1093#1086#1076
+      TabOrder = 4
+      OnClick = OPENClick
+    end
+  end
+  object OpenDialog: TOpenDialog
+    Left = 4
+    Top = 565
+  end
+  object SaveDialog: TSaveDialog
+    Left = 36
+    Top = 565
+  end
+end

@@ -1,0 +1,48 @@
+//---------------------------------------------------------------------------
+
+#ifndef uMAINH
+#define uMAINH
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Forms.hpp>
+#include <Vcl.ExtCtrls.hpp>
+#include <Vcl.Dialogs.hpp>
+#include <Vcl.Graphics.hpp>
+//---------------------------------------------------------------------------
+class TForm1 : public TForm
+{
+__published:	// IDE-managed Components
+	TPanel *Panel1;
+	TButton *CODE;
+	TButton *DECODE;
+	TMemo *MEMO;
+	TEdit *LEN;
+	TOpenDialog *OpenDialog;
+	TEdit *OpenPath;
+	TButton *SAVE;
+	TButton *OPEN;
+	TSaveDialog *SaveDialog;
+	TPanel *Panel2;
+	TImage *IMG;
+	TEdit *STEP;
+	TControlBar *ControlBar1;
+	TLabel *Label3;
+	TLabel *Label4;
+	TEdit *Edit1;
+	TLabel *Label1;
+	TLabel *Label2;
+	TButton *EXITBUT;
+	void __fastcall CODEClick(TObject *Sender);
+	void __fastcall DECODEClick(TObject *Sender);
+	void __fastcall OPENClick(TObject *Sender);
+	void __fastcall SAVEClick(TObject *Sender);
+private:	// User declarations
+public:		// User declarations
+	__fastcall TForm1(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TForm1 *Form1;
+//---------------------------------------------------------------------------
+#endif
