@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{4DD7EDCB-3E41-4E10-B1F5-41C92EE8E305}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="STEGA.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="DLL.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="STEGA">
+        <MSBuild Projects="STEGA.cbproj"/>
+    </Target>
+    <Target Name="STEGA:Clean">
+        <MSBuild Projects="STEGA.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="STEGA:Make">
+        <MSBuild Projects="STEGA.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="DLL">
+        <MSBuild Projects="DLL.cbproj"/>
+    </Target>
+    <Target Name="DLL:Clean">
+        <MSBuild Projects="DLL.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DLL:Make">
+        <MSBuild Projects="DLL.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="STEGA;DLL"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="STEGA:Clean;DLL:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="STEGA:Make;DLL:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

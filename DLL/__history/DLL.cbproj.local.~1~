@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.020,C:\Users\SaMooTo\Desktop\STEGA-master\uDLL.cpp=C:\Users\SaMooTo\Desktop\STEGA-master\File1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.044,C:\Users\SaMooTo\Desktop\STEGA-master\DLLPCH1.h=C:\Users\SaMooTo\Documents\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.064,C:\Users\SaMooTo\Desktop\STEGA-master\DLL.cbproj=C:\Users\SaMooTo\Documents\Embarcadero\Studio\Projects\Project2.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.052,C:\Users\SaMooTo\Desktop\STEGA-master\File1.cpp=C:\Users\SaMooTo\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.029,=C:\Users\SaMooTo\Documents\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.091,=C:\Users\SaMooTo\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>2025.11.15 16:01:17.368,C:\Users\SaMooTo\Desktop\STEGA-master\DLL\DLLPCH2.h=C:\Users\SaMooTo\Desktop\STEGA-master\DLLPCH1.h</Transaction>
+    <Transaction>2025.11.15 16:01:17.377,C:\Users\SaMooTo\Desktop\STEGA-master\DLL\DLL.cbproj=C:\Users\SaMooTo\Desktop\STEGA-master\DLL.cbproj</Transaction>
+    <Transaction>2025.11.15 16:01:19.641,C:\Users\SaMooTo\Desktop\STEGA-master\DLL\DLL.cbproj=C:\Users\SaMooTo\Desktop\STEGA-master\DLL\DLL.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>
